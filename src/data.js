@@ -1,8 +1,8 @@
 // import house images
-import House1 from './assets/img/houses/house1.png';
-import House2 from './assets/img/houses/house2.png';
-import House3 from './assets/img/houses/house3.png';
-import House4 from './assets/img/houses/house4.png';
+import House1 from './assets/img/houses/house1.jpg';
+import House2 from './assets/img/houses/house2.jpg';
+import House3 from './assets/img/houses/house3.jpg';
+import House4 from './assets/img/houses/house4.jpg';
 import House5 from './assets/img/houses/house5.png';
 import House6 from './assets/img/houses/house6.png';
 import House7 from './assets/img/houses/house7.png';
@@ -14,10 +14,10 @@ import House12 from './assets/img/houses/house12.png';
 // import house large images
 import House1Lg from './assets/img/houses/house1lg.png';
 import House2Lg from './assets/img/houses/house2lg.png';
-import House3Lg from './assets/img/houses/house3lg.png';
+import House3Lg from './assets/img/houses/house3lg.jpg';
 import House4Lg from './assets/img/houses/house4lg.png';
 import House5Lg from './assets/img/houses/house5lg.png';
-import House6Lg from './assets/img/houses/house6lg.png';
+import House6Lg from './assets/img/houses/house6lg.jpg';
 import House7Lg from './assets/img/houses/house7lg.png';
 import House8Lg from './assets/img/houses/house8lg.png';
 import House9Lg from './assets/img/houses/house9lg.png';
