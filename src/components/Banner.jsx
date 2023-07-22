@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../assets/img/house-banner.jpg'
-import Search from '../components/Search'
+import Search from './Search'
 const Banner = () => {
   return (
     <section className='h-full max-h-[640px] mb-8 xl:mb-24'>
@@ -13,8 +13,8 @@ const Banner = () => {
           Welcome to our premier house rental website, where your perfect home awaits. We pride ourselves on offering an unmatched selection of top-notch house rentals, meticulously curated to suit your every need. From cozy cottages to luxurious villas, our properties boast exceptional amenities and prime locations, ensuring a seamless and memorable stay. Begin your search today and uncover the key to your dream living space. Your ideal home is just a few clicks away!
           </p>
         </div>
-        <div className=' hidden sm:block md:block lg:block justify-end items-end lg:mr-20 lg:pr-12'>
-          <img src={Image} alt="" />
+        <div className=' hidden sm:block md:block lg:block justify-end items-end lg:mr-20 lg:pr-12 '>
+          <img src={Image} alt="" className='rounded'/>
         </div>
       </div>
       <Search />
