@@ -8,11 +8,14 @@ const HouseList = () => {
   return (
     <section className='mb-20'>
       <div className="container mx-auto">
-        <div>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-10'>
           {houses.map((house, index) => {
-            return <Link to={`/property/${house.id}`} key={index}>
-              <House  house={house}/>
-            </Link>
+            return (
+              
+                <Link  to={`/property/${house.id}`} key={index}>
+                <House  house={house}/>
+                </Link>
+            )
           })}
         </div>
       </div>
