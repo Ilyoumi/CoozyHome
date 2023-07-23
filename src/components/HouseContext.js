@@ -28,7 +28,17 @@ const HouseContextProvider = ({children}) => {
   }, [])
 
   const handleClick = () => {
-    console.log('clicked')
+    const isDefault = (str) => {
+      return str.split(' ').includes('(any)')
+      
+    }
+    //get first value of the price and parse it to number
+    const minPrice = parseInt(price.split('')[0])
+    //get max value of the price and parse it to number
+    const maxPrice = parseInt(price.split('')[2])
+    const newHouses = housesData.filter((house) => {
+      const housePrice = parseInt(house.price)
+    })
   }
   return (
     <HouseContext.Provider value={
