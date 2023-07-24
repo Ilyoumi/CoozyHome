@@ -30,7 +30,6 @@ const PriceRangeDropdown = () => {
       value : '30000 - 40000',
     },
   ]
-  console.log(price)
   const[isOpen, setIsOpen] = useState(false)
   return (
     <Menu as='div' className='dropdown relative'>
